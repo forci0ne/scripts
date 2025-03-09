@@ -10,7 +10,7 @@
 
 # 🚀 VALIS Node prepare Guide
 
-Welcome to the **VALIS Node** installation guide! Follow these steps to get your node up and running in no time. 🛰️
+Welcome to the **VALIS Node** preparation guide! Follow these steps to get your node up and running in no time. 🛰️
 
 ## 📌 Prerequisites
 Make sure your system meets the following requirements:
