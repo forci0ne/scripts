@@ -29,17 +29,7 @@ Run the following command:
 dpkg-reconfigure tzdata
 ```
 
-### 2️⃣ Install Git (if not already installed)
-If Git is missing, install it using:
-```bash
-apt install git
-```
-If the command fails, try:
-```bash
-sudo apt install git
-```
-
-### 3️⃣ Download & Execute the VALIS Setup Script
+### 2️⃣ Download & Execute the VALIS Setup Script
 Retrieve the script from GitHub:
 ```bash
 git clone https://github.com/forci0ne/scripts.git
