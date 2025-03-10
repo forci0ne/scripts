@@ -42,7 +42,7 @@ sudo apt install git
 ### 3️⃣ Download & Execute the VALIS Setup Script
 Retrieve the script from GitHub:
 ```bash
-wget https://github.com/forci0ne/scripts/blob/main/prepare_valis.sh
+git clone https://github.com/forci0ne/scripts.git
 ```
 
 Make the script executable:
