@@ -48,8 +48,9 @@ Run the script:
 Running a node and managing private keys involve risks. We are not responsible for any potential loss of funds, misconfigurations, or security vulnerabilities arising from the use of this guide or the provided script. Use at your own risk and ensure you follow best security practices.
 
 🚀 **Congratulations!** Your VALIS Node environment is now prepared. Please note that the node executables are not yet installed.
+------------------------------------
 
-### 🛠️ What the Script Does
+## 🛠️ What the Script Does
 
 ### 🔍 Pre-run Check
 - The script asks if it has been run before.
