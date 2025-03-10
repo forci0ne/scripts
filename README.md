@@ -32,7 +32,7 @@ dpkg-reconfigure tzdata
 ### 2️⃣ Download & Execute the VALIS Setup Script
 Retrieve the script from GitHub:
 ```bash
-git clone https://github.com/forci0ne/scripts.git
+wget https://raw.githubusercontent.com/forci0ne/scripts/refs/heads/main/prepare_valis.sh
 ```
 
 Make the script executable:
