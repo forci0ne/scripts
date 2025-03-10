@@ -46,5 +46,46 @@ Run the script:
 ```
 
 ---
-🚀 **Congratulations!** Your VALIS Node environment is now prepared.
+### ⚠️ Risk Disclaimer
+Running a node and managing private keys involve risks. We are not responsible for any potential loss of funds, misconfigurations, or security vulnerabilities arising from the use of this guide or the provided script. Use at your own risk and ensure you follow best security practices.
+---
+🚀 **Congratulations!** Your VALIS Node environment is now prepared. Please note that the node executables are not yet installed.
+---
 
+## 🛠️ What the Script Does
+
+### 🔍 Pre-run Check
+- The script asks if it has been run before.
+- If yes, it cleans up previous configuration artifacts by removing the `valis/subseeds` directory and `valis.conf` file. Make sure to backup existing seeds if they are important.
+
+### ⚙️ Environment Setup
+- Creates the working directory (`valis`).
+- Updates your system and installs required packages.
+- Builds the `secp256k1` library if necessary.
+
+### 📥 CLI Download
+- Downloads the VALIS CLI executable (`vcli`) from GitHub.
+- Makes it executable for usage.
+
+### 🔑 First Run (Vanity Generator)
+- Prompts for a password and a 3-letter vanity ID.
+- Runs the CLI tool to generate seed data.
+- Extracts important seed information once the output includes:
+  ```
+  Valis CLI Wallet address.
+  ```
+- Saves the seed as `seed1.bak`.
+
+### 🔄 Second Run (Seed Import)
+- Prompts for a second password.
+- Imports the seed from `seed1.bak`.
+- Runs the CLI tool again to extract the generated address.
+
+### 📜 Configuration File Creation
+- Asks for your public IP address.
+- Prompts whether to enable `zerobind`.
+- Requests your Infura project ID.
+- Creates a `valis.conf` file with the provided configuration details.
+
+### 🧹 Cleanup
+- Removes temporary log files for a clean setup.
