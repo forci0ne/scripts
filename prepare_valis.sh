@@ -67,7 +67,7 @@ echo "Downloading CLI file..."
 if [ -f "vcli" ]; then
   rm -f vcli
 fi
-wget -q https://github.com/valis-team/tockchain/raw/refs/heads/main/CoreTestnet/CLI/tockchain-vusd-cli-v2.0.1
+wget -q https://github.com/valis-team/tockchain/raw/refs/heads/main/CoreTestnet/CLI/tockchain-vusd-core-cli-v2.1.0
 mv tockchain-vusd-cli-v2.0.1 vcli
 chmod +x vcli
 
